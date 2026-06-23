@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; /* A clean font instantly lifts the design */
+  transition: background-color 0.3s ease; /* Makes the color change smooth! */
+}
+
+/* Wrapping text span to act as a proper block element if needed */
+span {
+  display: block;
+}
+
+.canvas {
+  margin: 100px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  margin: 10px; /* Gives buttons some breathing room */
+  cursor: pointer; /* Changes mouse cursor on hover */
+  border-radius: 8px; /* Slightly rounded corners look more modern */
+  transition: transform 0.1s ease;
+}
+
+
+.button:active {
+  transform: scale(0.95);
+}
+
+#grey { background: grey; }
+#white { background: white; }
+#blue { background: blue; }
+#yellow { background: yellow; }
